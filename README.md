@@ -98,7 +98,7 @@ themeManager.removeTheme('dark')
 
 ## Example
 
-You can find an example on how to work with this lib in this **[Codepen](https://codesandbox.io/s/p70jv0l2vj).**
+You can find an example on how to work with this lib in this **[CodeSandbox](https://codesandbox.io/s/p70jv0l2vj).**
 
 ## Contributors
 
