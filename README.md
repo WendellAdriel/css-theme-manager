@@ -31,7 +31,7 @@ import CSSThemeManager from './manager'
 
 const themeManager = new CSSThemeManager({
   'bg-color': '#fff',
-  'text-color': '#darkblue',
+  'text-color': 'darkblue',
   'featured-font': 'Verdana, sans-serif'
 })
 ```
@@ -43,7 +43,7 @@ The code above will result in:
 ```css
 :root {
     --csstm-bg-color: '#fff';
-    --csstm-text-color: '#darkblue';
+    --csstm-text-color: 'darkblue';
     --csstm-featured-font: 'Verdana, sans-serif';
 }
 ```
@@ -95,6 +95,10 @@ themeManager.createTheme('dark', {
 themeManager.applyTheme('html', 'dark')
 themeManager.removeTheme('dark')
 ```
+
+## Example
+
+You can find an example on how to work with this lib in this **[Codepen](https://codesandbox.io/s/p70jv0l2vj).**
 
 ## Contributors
 
