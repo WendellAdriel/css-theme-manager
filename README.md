@@ -24,10 +24,10 @@ yarn add css-theme-manager
 ```
 
 Import it and init the **CSS Theme Manager** with a default theme.
-A `theme` is an object with the name of your variables as keys and the value of the variables as the value.
+A `theme` is an object with the name of your variables as keys and the value of the variables as the values.
 
 ```js
-import CSSThemeManager from './manager'
+import CSSThemeManager from 'css-theme-manager'
 
 const themeManager = new CSSThemeManager({
   'bg-color': '#fff',
